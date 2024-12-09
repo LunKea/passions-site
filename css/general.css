@@ -1,0 +1,57 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Resten af CSS yippiiee */
+
+@font-face {
+  font-family: "Comfortaa2";
+  src: url("../skrifttyper/comfortaa-variablefont_wght-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 400 to 700 */
+
+.ibarra-real-nova > {
+  font-family: "Ibarra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ibarra2";
+  src: url(../skrittyper/roboto-black-webfont.woff) format(woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Ibarra2;
+  font-size: larger;
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: Ibarra2;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: small;
+  font-family: Comfortaa2, sans-serif;
+}
